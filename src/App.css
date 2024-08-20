@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.info > * {
+  margin-right: 30px;
+}
+
+.info h2 {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.info h2.updated {
+  opacity: 0.2;
+}
+
+h1 {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.updated {
+  opacity: 0.2;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 730px) {
+  
+}
